@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\05_Classes\bin\Debug\05_Classes.dll
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\05_Classes\bin\Debug\05_Classes.pdb
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\05_Classes\obj\Debug\05_Classes.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\05_Classes\obj\Debug\05_Classes.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\05_Classes\obj\Debug\05_Classes.dll
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\05_Classes\obj\Debug\05_Classes.pdb
