@@ -29,6 +29,15 @@ namespace _05_Classes
         public string Direction { get; set; }
         public string Shape { get; set; }
         public int BatchSize { get; set; }
+        public bool IsGood { get; set; }
+        public float Price { get; set; }
+      public void SetPrice()
+        {
+            if (IsGood)
+            {
+                Price = 1000f;
+            }
+        }
 
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _05_Classes
 {
-   public class Vehicle
+    public class Vehicle
     {
-        public Vehicle(string make, string model, double mileage, string color, string vin, int year, int coolnessFactor, bool isRunning )
+        public Vehicle(string make, string model, double mileage, string color, string vin, int year, int coolnessFactor, string type)
         {
             Make = make;
             Model = model;
@@ -17,7 +17,7 @@ namespace _05_Classes
             VIN = vin;
             Year = year;
             CoolnessFactor = coolnessFactor;
-            IsRunning = isRunning;
+            TypeOfVehicle = type;
         }
         public Vehicle()
         {
@@ -32,5 +32,11 @@ namespace _05_Classes
         public int Year { get; set; }
         public int CoolnessFactor { get; set; }
         public bool IsRunning { get; set; }
+        public string TypeOfVehicle { get; set; }
+
+        public void CarStart()
+        {
+            IsRunning = true;
+        }
     }
 }
