@@ -55,6 +55,9 @@ namespace _05_ClassesTests
             vehicle2.CarStart();
             Assert.IsTrue(vehicle2.IsRunning);
 
+            vehicle2.TurnOff();
+            Assert.IsFalse(vehicle2.IsRunning);
+
         }
     }
 }

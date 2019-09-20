@@ -38,5 +38,10 @@ namespace _05_Classes
         {
             IsRunning = true;
         }
+
+        public void TurnOff()
+        {
+            IsRunning = false;
+        }
     }
 }
