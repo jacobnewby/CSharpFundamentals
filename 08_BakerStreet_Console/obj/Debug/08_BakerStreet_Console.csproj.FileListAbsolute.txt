@@ -1,0 +1,10 @@
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreet_Console\bin\Debug\08_BakerStreet_Console.exe.config
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreet_Console\bin\Debug\08_BakerStreet_Console.exe
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreet_Console\bin\Debug\08_BakerStreet_Console.pdb
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreet_Console\bin\Debug\08_BakerStreetRepository.dll
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreet_Console\bin\Debug\08_BakerStreetRepository.pdb
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreet_Console\obj\Debug\08_BakerStreet_Console.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreet_Console\obj\Debug\08_BakerStreet_Console.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreet_Console\obj\Debug\08_BakerStreet_Console.csproj.CopyComplete
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreet_Console\obj\Debug\08_BakerStreet_Console.exe
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreet_Console\obj\Debug\08_BakerStreet_Console.pdb

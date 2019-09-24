@@ -11,7 +11,7 @@ namespace _06_CalculatorRepositoryConsole
         static void Main(string[] args)
         {
             ProgramUI program = new ProgramUI();
-            program.GetNumbersAndPrint();
+            program.RunMath();
   
         }
     }

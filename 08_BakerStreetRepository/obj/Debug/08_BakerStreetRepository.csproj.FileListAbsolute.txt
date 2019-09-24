@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreetRepository\obj\Debug\08_BakerStreetRepository.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreetRepository\obj\Debug\08_BakerStreetRepository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreetRepository\bin\Debug\08_BakerStreetRepository.dll
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreetRepository\bin\Debug\08_BakerStreetRepository.pdb
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreetRepository\obj\Debug\08_BakerStreetRepository.dll
+C:\ElevenFiftyProjects\0_Gold\Fundamentals\CSharpFundamentals\08_BakerStreetRepository\obj\Debug\08_BakerStreetRepository.pdb

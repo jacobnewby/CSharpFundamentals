@@ -8,34 +8,40 @@ namespace _06_CalculatorRepository
 {
     public class CalculatorRepository
     {
-        public int AddTwoNumbers(int numberOne, int numberTwo)
+        public void AddTwoNumbers(int numberOne, int numberTwo)
         {
             int sum = numberOne + numberTwo;
-            return sum;
+            Console.WriteLine(sum);
+            Console.ReadKey();
         }
 
-        public int SubstractTwoNumbers(int substractOne, int substractTwo)
+        public void SubstractTwoNumbers(int substractOne, int substractTwo)
         {
             int sumTwo = substractOne - substractTwo;
-            return sumTwo;
+            Console.WriteLine(sumTwo);
+            Console.ReadKey();
         }
 
-        public int DivideTwoNumbers(int divOne, int divTwo)
+        public void DivideTwoNumbers(int divOne, int divTwo)
         {
             int sumThree = divOne / divTwo;
-            return sumThree;
+            Console.WriteLine(sumThree);
+            Console.ReadKey();
+            
         }
 
-        public int MultiplyTwoNumbers(int multOne, int multTwo)
+        public void MultiplyTwoNumbers(int multOne, int multTwo)
         {
             int sumFour = multOne * multTwo;
-            return sumFour;
+            Console.WriteLine(sumFour);
+            Console.ReadKey();
         }
         
-        public int RemainderOfTwoNumbers(int remainOne, int remainTwo)
+        public void RemainderOfTwoNumbers(int remainOne, int remainTwo)
         {
             int sumFive = remainOne % remainTwo;
-            return sumFive;
+            Console.WriteLine(sumFive);
+            Console.ReadKey();
         }
 
     }
