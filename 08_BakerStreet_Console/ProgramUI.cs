@@ -32,7 +32,8 @@ namespace _08_BakerStreet_Console
                     "1. Add User and Order\n" +
                     "2. Remove Order\n" +
                     "3. See All Orders\n" +
-                    "4. Exit\n" +
+                    "4. Udpate Order\n" +
+                    "5. Exit\n" +
                     "");
                 string userInput = Console.ReadLine();
                 int userNumber = int.Parse(userInput);
@@ -49,6 +50,9 @@ namespace _08_BakerStreet_Console
                         SeeAllProducts();
                         break;
                     case 4:
+                        UpdateOrderUI();
+                        break;
+                    case 5:
                         continueToRun = false;
                         break;
                 }
@@ -130,6 +134,82 @@ namespace _08_BakerStreet_Console
                     break;
             }
             return initialCharge;
+        }
+
+        public void UpdateOrderUI()
+        {
+
+            List<ProductContent> contentList = _productRepo.GetProductList();
+            
+            foreach (ProductContent product in contentList)
+            {
+                Console.WriteLine("Would you like to update this customer's order: " + product.CustomerName + "?" + "Y/N");
+                string userInput = Console.ReadLine();
+                userInput.ToUpper();
+
+                UpdateOrder(userInput, product);
+            }
+
+        }
+
+        public void UpdateOrder(string userInput, ProductContent product)
+        {
+            List<ProductContent> contentList = _productRepo.GetProductList();
+            switch (userInput)
+            {
+                case "Y":
+                    
+                    Console.WriteLine("Here are your options: \n" +
+                        "1. Change product name.\n" +
+                        "2. Change customer name.\n" +
+                        "3. Change batch size.\n" +
+                        "4. Change order cost\n" +
+                        "5. Change bake type.\n");
+                    string userResponse = Console.ReadLine();
+                    int userNumberResponse = int.Parse(userResponse);
+                    switch (userNumberResponse)
+                    {
+                        
+                        case 1:
+                            Console.WriteLine("Enter product new name: ");
+                            product.ProductName = Console.ReadLine();
+                             break;
+                        case 2:
+                            Console.WriteLine("Enter customer new name: ");
+                            product.CustomerName = Console.ReadLine();
+                            break;
+                        case 3:
+                            Console.WriteLine("Enter new batch size: ");
+                            string batchSize = Console.ReadLine();
+                            int batchSizeInt = int.Parse(batchSize);
+                            product.OrderBatchSize = batchSizeInt;
+                            break;
+                        case 4:
+                            Console.WriteLine("Enter new order cost: ");
+                            string orderCost = Console.ReadLine();
+                            int orderCostAsInt = int.Parse(orderCost);
+                            product.OrderCost = orderCostAsInt;
+                            break;
+                        case 5:
+                            Console.WriteLine("What would you like to change the type to?\n" +
+                            "1. Bread\n" +
+                            "2. Cake\n" +
+                            "3. Pastery\n" +
+                            "4. Pies\n");
+                            string typeAsString = Console.ReadLine();
+                            int typeAsInt = int.Parse(typeAsString);
+                            BakeType type = (BakeType)typeAsInt;
+                            product.Type = type;
+                            break;
+
+                    }
+                    break;
+                case "N":
+                    break;
+
+            }
+
+
         }
     }
 }
