@@ -61,6 +61,7 @@ namespace _08_BakerStreet_Console
 
         public void AddNewUserAndOrder()
         {
+            
             Console.WriteLine("Name of product: ");
             string productName = Console.ReadLine();
 
@@ -80,7 +81,7 @@ namespace _08_BakerStreet_Console
             int typeAsInt = int.Parse(typeAsString);
             BakeType type = (BakeType)typeAsInt;
 
-            decimal orderCost = OrderCostMethod(type);
+            decimal orderCost = OrderCostMethod(type, orderBatchSize); 
 
             ProductContent product = new ProductContent(productName, customerName, orderBatchSize, orderCost, type);
             _productRepo.AddToList(product);
@@ -114,23 +115,27 @@ namespace _08_BakerStreet_Console
             Console.ReadKey();
         }
 
-        public decimal OrderCostMethod(BakeType type)
+        public decimal OrderCostMethod(BakeType type, int orderBatchSize)
         {
             decimal initialCharge = 100m;
 
             switch (type)
             {
                 case BakeType.Bread:
-                    initialCharge += 500.01m;
+                    decimal total = 500.01m * orderBatchSize;
+                    initialCharge += total;
                     break;
                 case BakeType.Cake:
-                    initialCharge += 2000m;
+                    decimal total2 = 2000m * orderBatchSize;
+                    initialCharge += total2;
                     break;
                 case BakeType.Pastery:
-                    initialCharge += 200.10m;
+                    decimal total3 = 200.10m * orderBatchSize;
+                    initialCharge += total3;
                     break;
                 case BakeType.Pies:
-                    initialCharge += 851.5m;
+                    decimal total4 = 851.5m * orderBatchSize;
+                    initialCharge += total4;
                     break;
             }
             return initialCharge;
